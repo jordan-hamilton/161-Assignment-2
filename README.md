@@ -46,6 +46,6 @@ Write a program that asks the user for a (integer) number of cents, from 0 to 99
     N: 0
     P: 2
 
-    Hint: You will find the mod operator (%) and integer division useful.
+Hint: You will find the mod operator (%) and integer division useful.
 
-    The file must be named: **change.cpp**.
+The file must be named: **change.cpp**.
