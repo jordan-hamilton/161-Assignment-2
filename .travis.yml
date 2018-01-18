@@ -3,14 +3,13 @@ compiler: gcc
 addons:
   apt:
     packages:
-    - gcc-4.8
-    - g++-4.8
+    - gcov
 
 before_script:
   - curl -L https://codeclimate.com/downloads/test-reporter/test-reporter-latest-linux-amd64 > ./cc-test-reporter
   - chmod +x ./cc-test-reporter
   - ./cc-test-reporter before-build
 script:
-  - g++ change.cpp -o change
+  - g++ change.cpp -o change;gcov change.cpp
 after_script:
   - ./cc-test-reporter after-build -t gcov --exit-code $TRAVIS_TEST_RESULT
