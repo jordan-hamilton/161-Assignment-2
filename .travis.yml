@@ -3,8 +3,8 @@ compiler: gcc
 addons:
   apt:
     packages:
-    - gcc-4.8.5
-    - g++-4.8.5
+    - gcc-4.8
+    - g++-4.8
 
 before_script:
   - curl -L https://codeclimate.com/downloads/test-reporter/test-reporter-latest-linux-amd64 > ./cc-test-reporter
