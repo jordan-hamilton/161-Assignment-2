@@ -11,6 +11,7 @@ Remember to not use any material we haven't covered yet (as stated in the syllab
 Write a program that asks the user for five numbers and then prints out the average of those numbers.  When you run your program, it should match the following format:
 
     Please enter five numbers.
+    -2.4
     5.1
     6.0
     123.8
