@@ -4,7 +4,6 @@
 
 Remember to not use any material we haven't covered yet (as stated in the syllabus).
 
-
 **Project 2.a**
 
 Write a program that asks the user for five numbers and then prints out the average of those numbers.  When you run your program, it should match the following format:
@@ -20,11 +19,9 @@ Write a program that asks the user for five numbers and then prints out the aver
 
 The file must be named: **average.cpp**.  To compile it into an executable file named "average", enter "g++ average.cpp -o average".  "g++" is the name of the compiler, "average.cpp" is the name of your program, "-o average" says that you want the executable file to be named "average" (you do not have to match the name of your .cpp file).  If you don't use the -o option, then the executable file will be named "a.out".
 
-
 **Project 2.b**
 
 Write a program that converts Celsius temperatures to Fahrenheit temperatures.  The formula is:
-
 
 
 where F is the Fahrenheit temperature and C is the Celsius temperature.  The program should prompt the user to input a Celsius temperature and should display the corresponding Fahrenheit temperature.  It should display only the converted temperature without any text (not even a 'F').  When you run your program, it should match the following format:
@@ -35,7 +32,6 @@ where F is the Fahrenheit temperature and C is the Celsius temperature.  The pro
     13.1
 
 The file must be named **tempConvert.cpp.**
-
 
 **Project 2.c**
 
